@@ -1,0 +1,9 @@
+node_modules
+packages/**/lib/**/*
+.vscode
+*.local.*
+*.log
+local
+.history
+coverage
+.turbo

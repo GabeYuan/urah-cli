@@ -1,0 +1,14 @@
+{
+  "name": "@times/ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@times/utils": "workspace:^1.0.0",
+    "vue": "^3.2.37"
+  }
+}
