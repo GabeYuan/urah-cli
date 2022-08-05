@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./lib",
+    "declarationDir": "./lib/typings",
+    "paths": {
+      "@/*": [
+        "scr/*"
+      ]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
-  "scripts": {},
+  "scripts": {
+    "clean": "rimraf lib",
+    "start": "npm run clean && tsc --watch",
+    "build": "npm run clean &&tsc",
+    "dev": "ts-node src/index.ts"
+  },
   "author": "",
   "license": "ISC"
 }
