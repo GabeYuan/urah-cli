@@ -1,2 +1,4 @@
 packages:
   - "packages/**"
+  # 过滤掉测试用例
+  - "!**/__test__/**"
