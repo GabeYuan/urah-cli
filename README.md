@@ -1,2 +1,2 @@
 # urah-cli
-关于pnpm menorepo的尝试
+关于pnpm monorepo的尝试
